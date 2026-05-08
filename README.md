@@ -1,4 +1,4 @@
-# Anonymous Option-Book VaR Artifact — GitHub-Light Version
+# Marking-Aware Sequential VaR Recalibration for Standardized Option Books
 
 This repository contains an anonymized replication artifact for an option-book Value-at-Risk (VaR) recalibration study. It is structured for blind review and for private GitHub upload before generating an anonymous review link. Raw OptionMetrics IvyDB data are not included.
 
