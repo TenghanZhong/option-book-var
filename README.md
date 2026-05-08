@@ -71,4 +71,3 @@ OPTION_CALIBRATION_CONFIG=configs/qqq_config.json \
 python src/run_option_book_var.py
 ```
 
-The pipeline writes paper-facing outputs to the configured results directory. The omitted date-level files can be regenerated from licensed raw data.
