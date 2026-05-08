@@ -1,8 +1,6 @@
 # Marking-Aware Sequential VaR Recalibration for Standardized Option Books
 
-This repository contains an anonymized replication artifact for an option-book Value-at-Risk (VaR) recalibration study. It is structured for blind review and for private GitHub upload before generating an anonymous review link. Raw OptionMetrics IvyDB data are not included.
-
-This GitHub-light version keeps code, configuration files, aggregate result tables, paper figures, synthetic sample data, and documentation. Large date-level result panels are omitted to avoid GitHub browser-upload limits and to reduce redistribution risk for licensed-data derivatives.
+This repository contains an anonymized replication artifact for an option-book Value-at-Risk (VaR) recalibration study. Raw OptionMetrics IvyDB data are not included.
 
 ## What is included
 
