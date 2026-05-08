@@ -1,0 +1,21 @@
+{
+  "ticker": "SPX",
+  "secid": 108105,
+  "years": [
+    2020
+  ],
+  "option_file_fmt": "data_{year}.csv",
+  "price_file": "security_prices.csv",
+  "zcy_file": "zero_coupon_yield.csv",
+  "div_file": "index_dividend_yield.csv",
+  "vix_file": "VIXCLS.csv",
+  "vxv_file": "VXVCLS.csv",
+  "results_dir": "sample_results",
+  "k_min": -0.3,
+  "k_max": 0.2,
+  "recommended_main_pipeline_settings": {
+    "settlement_policy": "all",
+    "require_european_style": false,
+    "use_vendor_forward_price": true
+  }
+}

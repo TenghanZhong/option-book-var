@@ -1,0 +1,30 @@
+{
+  "ticker": "QQQ",
+  "secid": 107899,
+  "years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "option_file_fmt": "data_{year}.parquet",
+  "price_file": "security_prices.parquet",
+  "zcy_file": "zero_coupon_yield.parquet",
+  "div_file": "index_dividend_yield.parquet",
+  "vix_file": "VIXCLS.parquet",
+  "vxv_file": "VXVCLS.parquet",
+  "results_dir": "results/qqq",
+  "k_min": -0.35,
+  "k_max": 0.25,
+  "surface_k_min": -0.35,
+  "surface_k_max": 0.25,
+  "recommended_main_pipeline_settings": {
+    "settlement_policy": "all",
+    "require_european_style": false,
+    "use_vendor_forward_price": true
+  }
+}
