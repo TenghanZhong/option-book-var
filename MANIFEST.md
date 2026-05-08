@@ -14,6 +14,7 @@ This manifest lists included files only. Large omitted files are listed in `docs
 | `ablation_results/book_var_calibration_memory_ablation_by_book.csv` | 6479 | `506fbf8f106c219655e5bc94f23fbe12485aec6a3601e69e679a82eeb4670c65` |
 | `ablation_results/book_var_calibration_memory_ablation_by_market.csv` | 1360 | `84f4363896a03a984f6fa4d17330d57b99116e6f89bb0f8d52cd81f4bf9b5ef6` |
 | `ablation_results/book_var_calibration_memory_ablation_compact.csv` | 1072 | `e24ac9934349c71e4e130e3cef0c86c413801d374e97365cec89b754fc6f584b` |
+| `checksums.sha256` | 8397 | `8814d70010d12d9d269b9a3d17be0c3f874629683b33fa98cf40b0c3ae5eec5d` |
 | `configs/qqq_config.json` | 648 | `d906fb7523c8e9140170b8c709095dc8bec473fb117ed38b2aeb7eeaf9114634` |
 | `configs/sample_synthetic_config.json` | 504 | `d8297c19ce9d9ff2f5b3ffda6a70443b9c0fb238a3ace83d345ed93eeec9b628` |
 | `configs/spx_config.json` | 644 | `6bdd28287e04f7ddf7658ee6f9754807a32039dcbdd0ef136eb856690c013fc3` |
@@ -79,11 +80,11 @@ This manifest lists included files only. Large omitted files are listed in `docs
 | `src/make_figures.py` | 45542 | `c788dd5ec5101c942b999e9165c9d52a278ffa3115c22cbaa5cd36a2bf71a766` |
 | `src/make_tables.py` | 6031 | `1b1462385058e48260d25dc9894b62f354e1d17b7eb2d69f8b18ec0686fd07b1` |
 | `src/run_option_book_var.py` | 162251 | `5ff1c345a9490f16fbe5474c8255334da1b9928231d3b3992cf027fbfeeb44cf` |
-| `src/validate_no_leakage.py` | 2235 | `96bc363d026bba5d3b97d835e9beee247a315cafe11648af9c210eefed84dda1` |
+| `src/validate_no_leakage.py` | 2612 | `3fdaafa93aa0b0c955f39d8866e08892b9f93ebbf8be1f6700ad6db3034eb62c` |
 | `tables/table_backtest_main_recalibrated.csv` | 647 | `4961a671be63931d5c1f34a7a6f9afb69eeff49a233aafcbaf5ec7c515e29dad` |
 | `tables/table_backtest_main_recalibrated.tex` | 634 | `c3671ebbe27c50b282916dedc42064dfac7e7a9db2932b1c8347c0187ea3b0a5` |
 | `tables/table_baseline_pooled.csv` | 1297 | `12e0f12998f4d370c653c0eb897008f5f3c1732d628e31035e18d4a2a0bf05e5` |
 | `tables/table_baseline_pooled.tex` | 1077 | `7f1c4463dd40d43e034d57ab42d1fb065b97f6ec0d64c651ad84d9ebb07622e3` |
 | `tables/table_main_results.csv` | 1083 | `d2ed9ef259fbcaecb67f437ea3612aad54b08e4174687af263952d4deb93633f` |
 | `tables/table_main_results.tex` | 971 | `d084d968f6ef68e36124f85d9cb37f8a08a3bd4cc61260e78523336b2cca5807` |
-| `validation/no_leakage_report.csv` | 213 | `d3bfc5ae14cd78da5b80e22daac0b3cc0aaca353e990c7f4d9445152d8583038` |
+| `validation/no_leakage_report.csv` | 73 | `5e1b19db38418324c4dcdcd1fef35ed4506d45fd5e4b0b57193f37613511d8c2` |
