@@ -1,0 +1,22 @@
+\begin{table}
+\caption{Aggregate comparison with classical VaR baselines.}
+\label{tab:baseline_pooled_generated}
+\begin{tabular}{lllllll}
+\toprule
+Market & Method & Exceedance & Average violation & Pinball loss & Average VaR & Max 50-day exceedance \\
+\midrule
+SPX & Historical VaR & 0.105 & 0.026 & 0.046 & 0.089 & 0.420 \\
+SPX & EWMA Historical VaR & 0.103 & 0.020 & 0.044 & 0.128 & 0.280 \\
+SPX & CAViaR & 0.103 & 0.024 & 0.046 & 0.095 & 0.340 \\
+SPX & GARCH-t VaR & 0.072 & 0.028 & 0.052 & 0.130 & 0.420 \\
+SPX & LightGBM Quantile & 0.171 & 0.022 & 0.042 & 0.083 & 0.360 \\
+SPX & LightGBM + Calibration & 0.106 & 0.017 & 0.042 & 0.125 & 0.260 \\
+QQQ & Historical VaR & 0.111 & 0.007 & 0.017 & 0.124 & 0.360 \\
+QQQ & EWMA Historical VaR & 0.104 & 0.005 & 0.016 & 0.128 & 0.260 \\
+QQQ & CAViaR & 0.109 & 0.006 & 0.017 & 0.127 & 0.380 \\
+QQQ & GARCH-t VaR & 0.108 & 0.007 & 0.018 & 0.122 & 0.360 \\
+QQQ & LightGBM Quantile & 0.191 & 0.009 & 0.016 & 0.086 & 0.420 \\
+QQQ & LightGBM + Calibration & 0.106 & 0.004 & 0.014 & 0.116 & 0.220 \\
+\bottomrule
+\end{tabular}
+\end{table}
