@@ -1,22 +1,5 @@
 """
-Main pipeline for the option-book VaR adaptive calibration study.
-
-This is the canonical calibration entry point for both SPX and QQQ.
-Asset-specific behavior is controlled through environment variables or an
-optional calibration_config.json file. The script directory and the data
-directory are intentionally decoupled, so the code can live in a paper
-repository while the large option files stay in a separate data folder.
-The legacy robustness_config.json file is still accepted for backward
-compatibility.
-
-Internal legacy result columns such as `_conf` are retained only for
-compatibility with earlier plotting and table code. Paper-facing wording should
-use calibrated, calibration, or sequential calibration.
-
-No-leakage revision: realized current t-to-t+1 next-day marking outcome
-columns are retained as diagnostics in the output CSVs but are deliberately
-excluded from the forecast-time feature matrix. Only lagged marking diagnostics
-constructed from already-realized past transitions are eligible as features.
+Main pipeline for the option-book VaR adaptive calibration.
 """
 
 import os
