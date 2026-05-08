@@ -74,7 +74,3 @@ python src/run_option_book_var.py
 ```
 
 The pipeline writes paper-facing outputs to the configured results directory. The omitted date-level files can be regenerated from licensed raw data.
-
-## Blind-review hygiene
-
-The repository uses anonymous authorship and repository-relative paths. Do not add personal GitHub URLs, local machine paths, acknowledgments, email addresses, institution names, ORCID identifiers, or DOI metadata that identifies the authors before the blind-review phase ends.
