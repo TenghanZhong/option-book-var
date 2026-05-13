@@ -1,0 +1,7 @@
+market,book,n,target_alpha,ref_exceedance,recal_exceedance,kupiec_p_uc_recalibrated
+SPX,ATM straddle,1077,0.05,0.136,0.057,0.327
+SPX,25d risk reversal,1106,0.05,0.108,0.059,0.192
+SPX,25d/10d put spread,978,0.05,0.089,0.055,0.461
+QQQ,ATM straddle,1484,0.05,0.151,0.059,0.137
+QQQ,25d risk reversal,1497,0.05,0.110,0.058,0.160
+QQQ,25d/10d put spread,988,0.05,0.105,0.054,0.603
