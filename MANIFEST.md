@@ -1,6 +1,6 @@
 # GitHub-light anonymous option-book VaR artifact manifest
 
-Generated: 2026-05-08 UTC
+Generated: 2026-05-13 UTC
 
 This manifest lists included files only. Large omitted files are listed in `docs/omitted_large_files.md`.
 
@@ -8,21 +8,19 @@ This manifest lists included files only. Large omitted files are listed in `docs
 
 | Path | Size bytes | SHA256 |
 |---|---:|---|
-| `.gitignore` | 786 | `6e9300e573c89a0ed0e90a3d3bd226c3c01644d8a804a507aed238b05102da00` |
 | `LICENSE` | 1008 | `6ef8f362b54032e405b8cefdfc2e30f9c2666582cb3d144cfb965f0a695922e9` |
-| `README.md` | 3456 | `64a4682944bc1a9d68dda0517bf45ec3b3e4c1b599a03233a542be94179502d7` |
+| `README.md` | 4406 | `57aee4b36cb9347dfa7ce7fefb7d11e0ed5c831c3faa877689a94184b20f4e53` |
 | `ablation_results/book_var_calibration_memory_ablation_by_book.csv` | 6479 | `506fbf8f106c219655e5bc94f23fbe12485aec6a3601e69e679a82eeb4670c65` |
 | `ablation_results/book_var_calibration_memory_ablation_by_market.csv` | 1360 | `84f4363896a03a984f6fa4d17330d57b99116e6f89bb0f8d52cd81f4bf9b5ef6` |
 | `ablation_results/book_var_calibration_memory_ablation_compact.csv` | 1072 | `e24ac9934349c71e4e130e3cef0c86c413801d374e97365cec89b754fc6f584b` |
-| `checksums.sha256` | 8397 | `8814d70010d12d9d269b9a3d17be0c3f874629683b33fa98cf40b0c3ae5eec5d` |
+| `checksums.sha256` | 8451 | `9a5dbb8eaa4b86769f49508af47c652c3f1dd39162627179d548eb96274fa55a` |
 | `configs/qqq_config.json` | 648 | `d906fb7523c8e9140170b8c709095dc8bec473fb117ed38b2aeb7eeaf9114634` |
 | `configs/sample_synthetic_config.json` | 504 | `d8297c19ce9d9ff2f5b3ffda6a70443b9c0fb238a3ace83d345ed93eeec9b628` |
 | `configs/spx_config.json` | 644 | `6bdd28287e04f7ddf7658ee6f9754807a32039dcbdd0ef136eb856690c013fc3` |
 | `docs/artifact_reproducibility.md` | 2389 | `e4caf13c6cf67b5512b89f673cb8ff4ed2bfdf455045ef988a81649b3b636d52` |
 | `docs/data_schema.md` | 2244 | `3caa53c46eb28164369c89b383dde14d84269fd20804e9ca60b149ba85323488` |
-| `docs/licensed_data_notice.md` | 966 | `75bab8e4049edae20f39b1ecf1f08783ad01ebce7e3a8e2394130142f9954ea9` |
+| `docs/licensed_data_notice.md` | 470 | `5e8bc0afee56bb2046cd1de7601ad1e55cc12241c7adcf85054bb88749362ca7` |
 | `docs/omitted_large_files.md` | 1351 | `4f12172663cd12ff3d2a15168d7b2eafb4075bd06b49cc23a89a9b8637a50aac` |
-| `figures/qqq/.gitkeep` | 0 | `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855` |
 | `figures/qqq/appendix_rolling50_gap_all_baselines.png` | 377841 | `f5d2fdb7a2539b0657f24edeba7c0b9c0ef50593088f097c6ac1212b7fc1c41f` |
 | `figures/qqq/appendix_yearly_exceedance_with_n.png` | 170534 | `003afde2d2b45d8a90a0e0db8fda58e7fbf56b9b27ab148ea8959fb5cfc15afc` |
 | `figures/qqq/fig1_overall_dot_ci.png` | 58215 | `6cc50fa8d516255f4f2be9c71c25d768471eb41c4ae9315fdf54fa26221074aa` |
@@ -44,7 +42,6 @@ This manifest lists included files only. Large omitted files are listed in `docs
 | `figures/spx/fig4_robustness_heatmap.png` | 65555 | `3e24fc2170c94d1af5c3253645846c518726ff781e446bb8f12c8d32b64a4f9f` |
 | `figures/spx/fig5_feasibility_fallback.png` | 105460 | `b4e8476f99b4e6e78d1fee490448759b9736269127a96734cee664be455e6c24` |
 | `requirements.txt` | 125 | `b040de676bed0451b39cd83700b90318c384f4689925433a5d9231b84e06cc11` |
-| `results/README.md` | 221 | `e1e4434c67bb19d86ce84728343db74ce959089a8742ac96498484e4117d6ac0` |
 | `results/qqq/README.md` | 405 | `a5633dfb8d31db7f455bf721b13fe17a2db279438b24afd285cfd04cfbd1e02b` |
 | `results/qqq/book_var_backtest_tests_v25.csv` | 23160 | `a87dc88dd82ad12776cd9f372e24826ec28b23d74077223d8c00f81a6b3d0655` |
 | `results/qqq/book_var_baseline_comparison_v25.csv` | 7270 | `56d28d6f1aebd4e23fda1533279908db9713bc56337437a1de727b3480370e59` |
@@ -79,8 +76,11 @@ This manifest lists included files only. Large omitted files are listed in `docs
 | `scripts/run_spx.sh` | 225 | `e3a3bbed4f6503ec685bcf0420fe3a8c659c26b212ea66f7b8bf2f8c5e2abb65` |
 | `src/make_figures.py` | 45542 | `c788dd5ec5101c942b999e9165c9d52a278ffa3115c22cbaa5cd36a2bf71a766` |
 | `src/make_tables.py` | 6031 | `1b1462385058e48260d25dc9894b62f354e1d17b7eb2d69f8b18ec0686fd07b1` |
-| `src/run_option_book_var.py` | 162251 | `5ff1c345a9490f16fbe5474c8255334da1b9928231d3b3992cf027fbfeeb44cf` |
+| `src/run_option_book_var.py` | 161289 | `5290ee0be5d4ecbf3aec4917c940eb83c989ed22cf782b7322072ab826eeecc2` |
 | `src/validate_no_leakage.py` | 2612 | `3fdaafa93aa0b0c955f39d8866e08892b9f93ebbf8be1f6700ad6db3034eb62c` |
+| `tables/table_alpha05_book_tests.csv` | 374 | `8ad8386f162c8eb4058eaece4f5788c680f7746da29a3d1de64e0d3a66fbacc4` |
+| `tables/table_alpha_robustness.csv` | 192 | `f84da0ef8d2c37fc7bf62b50355409efdf6ba2462783d178e71534059a64195d` |
+| `tables/table_alpha_robustness.tex` | 577 | `ccd7ed5443442d46746a85766001bfe86ef738b7a2369f73772cd7e5350b7614` |
 | `tables/table_backtest_main_recalibrated.csv` | 647 | `4961a671be63931d5c1f34a7a6f9afb69eeff49a233aafcbaf5ec7c515e29dad` |
 | `tables/table_backtest_main_recalibrated.tex` | 634 | `c3671ebbe27c50b282916dedc42064dfac7e7a9db2932b1c8347c0187ea3b0a5` |
 | `tables/table_baseline_pooled.csv` | 1297 | `12e0f12998f4d370c653c0eb897008f5f3c1732d628e31035e18d4a2a0bf05e5` |
