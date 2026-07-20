@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated IEEE CIFEr 2026 paper."
+title: "Marking-Aware Sequential VaR Recalibration for Standardized Option Books"
+type: software
+version: 1.0.0
+date-released: 2026-07-19
+authors:
+  - family-names: Zhong
+    given-names: Tenghan
+  - family-names: Wu
+    given-names: Keyuan
+repository-code: "https://github.com/TenghanZhong/option-book-var"
+url: "https://github.com/TenghanZhong/option-book-var"
+license: MIT
+keywords:
+  - Value-at-Risk
+  - option books
+  - sequential recalibration
+  - financial risk management
+  - conformal calibration
