@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Licensed or local raw data
+data/
+raw_data/
+licensed_data/
+*.parquet
+*.feather
+*.arrow
+
+# Large regenerated date-level outputs
+ablation_results/book_var_calibration_memory_ablation_detail.csv
+results/*/book_var_results_v25_paper_ready.csv
+results/*/book_var_rolling_v25_paper_ready.csv
+results/*/book_var_marking_intersection_dates_v25.csv
+results/*/book_var_marking_diag_dates.csv
+
+# Local run artifacts
+validation/
+main_results_*/
+logs/
+*.log
