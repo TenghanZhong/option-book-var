@@ -1,8 +1,8 @@
 # QQQ aggregate results
 
-This folder keeps aggregate derived outputs for GitHub-light upload.
+This directory contains compact derived QQQ outputs used for table-level verification and diagnostics.
 
-Date-level panels are intentionally omitted:
+The following date-level panels are intentionally omitted from the repository:
 
 ```text
 book_var_results_v25_paper_ready.csv
@@ -11,4 +11,4 @@ book_var_marking_intersection_dates_v25.csv
 book_var_marking_diag_dates.csv
 ```
 
-The omitted files can be regenerated from licensed raw data by running `src/run_option_book_var.py`.
+They can be regenerated from licensed raw data by running `src/run_option_book_var.py` with `configs/qqq_config.json`. See `docs/omitted_large_files.md` and `docs/artifact_reproducibility.md`.
